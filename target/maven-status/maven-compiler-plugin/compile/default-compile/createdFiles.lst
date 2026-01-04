@@ -1,0 +1,3 @@
+cucumber/cucumber/guice/GuiceInjectorSource.class
+cucumber/cucumber/guice/provider/WebDriverProvider.class
+cucumber/cucumber/guice/ProjectModule.class

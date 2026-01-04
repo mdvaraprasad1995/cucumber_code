@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.cucumber.acceptancetests.AllTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.956 sec <<< FAILURE! - in cucumber.cucumber.acceptancetests.AllTests
+Scenario: Searching Google...  Time elapsed: 0.084 sec  <<< ERROR!
+com.google.inject.ProvisionException: 
+Unable to provision, see the following errors:
+
+1) Error in custom provider, java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+  while locating cucumber.cucumber.guice.provider.WebDriverProvider
+  at cucumber.cucumber.guice.ProjectModule.configure(ProjectModule.java:12)
+  while locating org.openqa.selenium.WebDriver
+    for the 1st parameter of cucumber.cucumber.hooks.Hooks.<init>(Hooks.java:14)
+  while locating cucumber.cucumber.hooks.Hooks
+
+1 error
+Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+Scenario: Searching Google...  Time elapsed: 0.129 sec  <<< ERROR!
+com.google.inject.ProvisionException: 
+Unable to provision, see the following errors:
+
+1) Error in custom provider, java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+  while locating cucumber.cucumber.guice.provider.WebDriverProvider
+  at cucumber.cucumber.guice.ProjectModule.configure(ProjectModule.java:12)
+  while locating org.openqa.selenium.WebDriver
+    for the 1st parameter of cucumber.cucumber.hooks.Hooks.<init>(Hooks.java:14)
+  while locating cucumber.cucumber.hooks.Hooks
+
+1 error
+Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+

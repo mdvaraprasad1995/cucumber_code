@@ -1,0 +1,6 @@
+LoginIT.class
+cucumber/cucumber/hooks/Hooks.class
+cucumber/cucumber/steps/ExampleSteps.class
+stepdefs/loginStepdef.class
+cucumber/cucumber/acceptancetests/AllTests.class
+ExampleIT.class
